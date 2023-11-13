@@ -13,6 +13,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @ExtendWith(MockitoExtension.class)
 class JavaQuestionServiceTest {
+
     @InjectMocks
     private JavaQuestionService javaQuestionService;
 
