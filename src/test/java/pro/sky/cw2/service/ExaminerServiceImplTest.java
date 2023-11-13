@@ -18,6 +18,7 @@ class ExaminerServiceImplTest {
 
     @Mock
     private JavaQuestionService javaQuestionService;
+
     @InjectMocks
     private ExaminerServiceImpl examinerService;
 
