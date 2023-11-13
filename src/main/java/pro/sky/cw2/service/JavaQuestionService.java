@@ -12,7 +12,6 @@ import java.util.Random;
 public class JavaQuestionService implements QuestionService {
 
     private final Collection<Question> questions = new HashSet<>();
-
     @Override
     public Question add(String question, String answer) {
         Question newQuestion = new Question(question, answer);

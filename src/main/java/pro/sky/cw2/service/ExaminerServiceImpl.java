@@ -11,7 +11,6 @@ import java.util.HashSet;
 public class ExaminerServiceImpl implements ExaminerService {
 
     private final QuestionService questionService;
-
     public ExaminerServiceImpl(QuestionService questionService) {
         this.questionService = questionService;
     }
